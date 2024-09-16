@@ -49,15 +49,6 @@
     overflow: auto;
 }
 
-.app__list-item {
-    background-color: #FFEBEB;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 17px; 
-    border-radius: 10px;
-    cursor: pointer;
-}
 
 .app__list-checkbox {
     width: 20px;
@@ -70,13 +61,24 @@
     /* gap: 10px; */
 }
 
-.app__list-item-completed {
-    background-color: #EBFFED;
+.app__list-item {
+    background-color: #FFEBEB;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 17px; 
     border-radius: 10px;
-    text-decoration: line-through;
     cursor: pointer;
 }
+
+.completed {
+        background-color: #EBFFED;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 17px; 
+        border-radius: 10px;
+        text-decoration: line-through;
+        cursor: pointer;
+        
+    }
